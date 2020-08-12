@@ -1,4 +1,4 @@
-package chap5;
+package chap05;
 import java.util.Scanner;
 public class EuclidGCD {
 	static int gcd(int x, int y) {

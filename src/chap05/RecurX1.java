@@ -1,11 +1,13 @@
-package chap5;
+package chap05;
+
 import java.util.Scanner;
-public class Recur {
+
+public class RecurX1 {
 	static void recur(int n) {
-		if (n > 0) {
-			recur(n -1);
+		while (n > 0) {
+			recur(n - 1);
 			System.out.println(n);
-			recur(n-2);
+			n = n - 2;
 		}
 	}
 	public static void main(String[] args) {
@@ -15,7 +17,6 @@ public class Recur {
 		int x = sc.nextInt();
 		
 		recur(x);
-
 	}
 
 }
