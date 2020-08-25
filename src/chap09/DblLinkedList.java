@@ -42,7 +42,7 @@ public class DblLinkedList<E> {
 		return null;
 	}
 	
-	public void printCurrennode() {
+	public void printCurrentNode() {
 		if (isEmpty())
 			System.out.println("선택 노드가 없습니다.");
 		else
